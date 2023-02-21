@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+.div,textarea,input{
+    box-sizing: border-box;
+}
+.form-bg{
+    background-color: rgb(109, 109, 109);
+    font-family: 'LINESeedKR-Bd';
+    padding:30px;
+}
+.form-white{
+    background-color: white;
+    padding:30px;
+    width: 100%;
+    max-width: 600px;
+    height:850px;
+    margin: auto;
+}
+
+.form-input{
+    width:100%;
+    padding:10px;
+    font-size:20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.w-50{
+    width: 49%;
+    float: left;
+    padding:3px;
+}
+
+.w-100{
+    width: 100%;
+    padding: 10px;
+}
+
+.yellow-btn{
+    padding: 10px;
+    display: block;
+    background-color:rgb(112, 112, 112);
+    border: none;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    margin-left: auto;
+}

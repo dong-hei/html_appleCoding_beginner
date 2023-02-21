@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.navbar li{
+    display: inline-block;
+}
+/* selector 문법중 공백은 ~안에있는 이라는 뜻 */
+
+.navbar a{
+    font-family: 'NanumSquareNeo-Variable';
+    font-size: 12px;
+    text-decoration: none;
+    /* 하이퍼링크 라인 제거 */
+}
+
+.container{
+    width: 700px;
+    font-family: 'NanumSquareNeo-Variable';
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    
+    /* 부모태그 width의 100% */
+}
+
+.left{
+    width: 80%;
+    height: 200px;
+    /* float:left; */
+    background-color: rgb(255, 255, 255);
+    float:left
+    /* float:left 요소를 왼쪽 정렬 해줘 */
+    /* vertical-align 요소를 상위로 정렬해줘 */
+}
+
+.right{
+    width: 20%;
+    height: 250px;
+    display: inline-block;
+    float:right;
+    /* display : block 한행을 전부 차지 */
+    /* display : inline-block 내 크기만큼 차지 */
+
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-bg">
+        <div class="form-white">
+            <form>
+                <!-- form action ="" 작성한 내용이 어떤 경로로 전달될지,method 어떤방식으로 전달할지 -->
+                <h1>contact us</h1>
+                <p>Your Email</p>
+                <input type="email" placeholder="email@example.com"  class="form-input">
+                <!-- 일반글자 / value= 기본으로 채워진값 / name="" 인풋이름으로 서버에 전달 / type="submit" 전송하기-->
+                <div class="w-50">
+                    <p>First Name</p>
+                    <input class="form-input" type="text">
+                </div>
+                <div class="w-50">
+                    <p>Last Name</p>
+                    <input class="form-input" type="text">
+                </div>
+                <div style="clear : both"></div>
+    
+                <div class="w-100">
+                    <p style="margin-left: -10px;">Message</p>
+                    <textarea class="form-input" style="margin-left: -10px;height: 150px;"></textarea>
+                </div>
+
+                <div>
+                    <input type="checkbox">
+                    <label for="sub">subscribe</label>
+                    <button class="yellow-btn">SEND</button>
+                </div>
+                </form> 
+            </div>
+     </div>
+</body>
+</html>
